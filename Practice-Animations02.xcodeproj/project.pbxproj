@@ -11,6 +11,11 @@
 		CDA6180D261B6D5600A4A4F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA6180C261B6D5600A4A4F1 /* ContentView.swift */; };
 		CDA6180F261B6D5800A4A4F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA6180E261B6D5800A4A4F1 /* Assets.xcassets */; };
 		CDA61812261B6D5800A4A4F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA61811261B6D5800A4A4F1 /* Preview Assets.xcassets */; };
+		CDA6181B261B6DF400A4A4F1 /* RecordPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA6181A261B6DF400A4A4F1 /* RecordPlayerView.swift */; };
+		CDA6181E261B6EBB00A4A4F1 /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CDA6181D261B6EBB00A4A4F1 /* music.m4a */; };
+		CDA61822261B702900A4A4F1 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA61821261B702900A4A4F1 /* RecordView.swift */; };
+		CDA61825261B71F700A4A4F1 /* ArmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA61824261B71F700A4A4F1 /* ArmView.swift */; };
+		CDA61828261B778C00A4A4F1 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA61827261B778C00A4A4F1 /* SoundPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		CDA6180E261B6D5800A4A4F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDA61811261B6D5800A4A4F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDA61813261B6D5800A4A4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA6181A261B6DF400A4A4F1 /* RecordPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayerView.swift; sourceTree = "<group>"; };
+		CDA6181D261B6EBB00A4A4F1 /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
+		CDA61821261B702900A4A4F1 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		CDA61824261B71F700A4A4F1 /* ArmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmView.swift; sourceTree = "<group>"; };
+		CDA61827261B778C00A4A4F1 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +66,12 @@
 				CDA6180C261B6D5600A4A4F1 /* ContentView.swift */,
 				CDA6180E261B6D5800A4A4F1 /* Assets.xcassets */,
 				CDA61813261B6D5800A4A4F1 /* Info.plist */,
+				CDA6181D261B6EBB00A4A4F1 /* music.m4a */,
+				CDA6181A261B6DF400A4A4F1 /* RecordPlayerView.swift */,
 				CDA61810261B6D5800A4A4F1 /* Preview Content */,
+				CDA61821261B702900A4A4F1 /* RecordView.swift */,
+				CDA61824261B71F700A4A4F1 /* ArmView.swift */,
+				CDA61827261B778C00A4A4F1 /* SoundPlayer.swift */,
 			);
 			path = "Practice-Animations02";
 			sourceTree = "<group>";
@@ -128,6 +143,7 @@
 			files = (
 				CDA61812261B6D5800A4A4F1 /* Preview Assets.xcassets in Resources */,
 				CDA6180F261B6D5800A4A4F1 /* Assets.xcassets in Resources */,
+				CDA6181E261B6EBB00A4A4F1 /* music.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDA6180D261B6D5600A4A4F1 /* ContentView.swift in Sources */,
+				CDA61822261B702900A4A4F1 /* RecordView.swift in Sources */,
+				CDA61825261B71F700A4A4F1 /* ArmView.swift in Sources */,
 				CDA6180B261B6D5600A4A4F1 /* Practice_Animations02App.swift in Sources */,
+				CDA61828261B778C00A4A4F1 /* SoundPlayer.swift in Sources */,
+				CDA6181B261B6DF400A4A4F1 /* RecordPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
